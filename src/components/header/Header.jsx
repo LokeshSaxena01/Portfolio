@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { links } from "../../Data";
-import { FaBehance, FaDribbble, FaTwitter } from "react-icons/fa";
-import "./header.css";
 import { BsMoon, BsSun } from "react-icons/bs";
-import { Link } from "react-scroll";
-import { animateScroll } from "react-scroll";
+import { FaBehance, FaDribbble, FaTwitter } from "react-icons/fa";
+import { animateScroll, Link } from "react-scroll";
 import shapeOne from "../../assets/shape-1.png";
+import { links } from "../../Data";
+import "./header.css";
 
 const getStorageTheme = () => {
   let theme = "light-theme";
@@ -57,7 +56,7 @@ const Header = () => {
     <header className={`${scrollNav ? "scroll-header" : ""} header `}>
       <nav className="nav">
         <Link to="/" onClick={scrollTop} href="" className="nav__logo text-cs">
-          Miller
+          Lokesh
         </Link>
 
         <div className={`${showMenu ? "nav__menu show-menu" : "nav__menu"}`}>

@@ -16,7 +16,7 @@ const Blog = () => {
 
       <div className="blog__container container grid">
         <div className="blog__item card card-two">
-          <span className="blog__date text-cs">OCTOBER 31, 2022</span>
+          <span className="blog__date text-cs">june 07, 2024</span>
           <h3 className="blog__title">The Main Thing for The Designer</h3>
           <p className="blog__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vel
@@ -33,7 +33,7 @@ const Blog = () => {
         </div>
 
         <div className="blog__item card card-two">
-          <span className="blog__date text-cs">OCTOBER 31, 2022</span>
+          <span className="blog__date text-cs">june 07, 2024</span>
           <h3 className="blog__title">Follow Your Own Design Process</h3>
           <p className="blog__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vel
@@ -50,7 +50,7 @@ const Blog = () => {
         </div>
 
         <div className="blog__item card card-two">
-          <span className="blog__date text-cs">NOVEMBER 28, 2022</span>
+          <span className="blog__date text-cs">NOVEMBER 28, 2024</span>
           <h3 className="blog__title">Secrets to Create Bettter Interfaces</h3>
           <p className="blog__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vel

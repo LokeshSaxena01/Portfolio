@@ -21,11 +21,11 @@ export const Footer = () => {
         </div>
 
         <p className="footer__copyright text-cs">
-          &copy; 2023 <span>Luique</span>. All rights Reserved
+          &copy; 2024 <span>@</span>. All rights Reserved
         </p>
 
         <p className="footer__copyright text-cs">
-          Developed by <span>Lucky</span>{" "}
+          Developed by <span>Lokesh Saxena</span>{" "}
         </p>
       </div>
     </footer>

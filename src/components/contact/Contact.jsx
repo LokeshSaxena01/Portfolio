@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 import {
   FaRegAddressBook,
@@ -7,7 +8,6 @@ import {
 } from "react-icons/fa";
 import shapeOne from "../../assets/shape-1.png";
 import "./contact.css";
-import axios from "axios";
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -51,7 +51,7 @@ const Contact = () => {
             </span>
 
             <h3 className="contact__card-title">Address</h3>
-            <p className="contact__card-data">North Tower, Toronto, Canada</p>
+            <p className="contact__card-data">Noida India</p>
           </div>
 
           <div className="contact__card">
@@ -69,7 +69,7 @@ const Contact = () => {
             </span>
 
             <h3 className="contact__card-title">Email</h3>
-            <p className="contact__card-data">Zoe.miller@gmail.com</p>
+            <p className="contact__card-data">lokeshsaxena095@gmail.com</p>
           </div>
 
           <div className="contact__card">
@@ -78,7 +78,7 @@ const Contact = () => {
             </span>
 
             <h3 className="contact__card-title">Phone</h3>
-            <p className="contact__card-data">+1 900 - 900 - 9000</p>
+            <p className="contact__card-data">9696*******</p>
           </div>
         </div>
 

@@ -1,10 +1,9 @@
 import React from "react";
 import { FaBehance, FaDribbble, FaTwitter } from "react-icons/fa";
-import "./home.css";
 import profileImg from "../../assets/profile-img.png";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
-import CV from "../../assets/John-Cv.pdf";
+import "./home.css";
 
 const Home = () => {
   return (
@@ -16,7 +15,7 @@ const Home = () => {
           </p>
 
           <h1 className="home__title text-cs">
-            <span>ZOE</span> MILLER
+            <span>LOKESH</span> SAXENA
           </h1>
 
           <p className="home__job">
@@ -30,11 +29,11 @@ const Home = () => {
 
             <p className="home__data home__data-one">
               <span className="text-lg">
-                12 <b>+</b>
+                <b>fresher</b>
               </span>
 
               <span className="text-sm text-cs">
-                Years of <span>Experience</span>
+                Looking<span>Experience</span>
               </span>
             </p>
 
@@ -52,8 +51,8 @@ const Home = () => {
           </div>
 
           <p className="home__text">
-            From France, Paris. I have rich design in web design, also I am good
-            at wordpress. I love to talk with you about our own unique.
+            From UP, INDIA. I have rich design in web design, also I am good
+            at Bootstrap.
           </p>
 
           <div className="home__socials">
@@ -71,9 +70,6 @@ const Home = () => {
           </div>
 
           <div className="home__btns">
-            <a download="" href={CV} className="btn text-cs">
-              Download CV
-            </a>
 
             <a href="#skills" className="hero__link text-cs">
               My Skills
